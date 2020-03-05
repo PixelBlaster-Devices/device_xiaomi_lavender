@@ -460,6 +460,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
