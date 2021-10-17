@@ -27,3 +27,4 @@ ro.pb.camera=48MP,5MP
 ro.pb.version=3.5
 ro.pb.codename=lavender
 ro.pb.device=Redmi Note 7
+ro.pb.cores= 8
